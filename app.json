@@ -1,0 +1,8 @@
+{
+  "name": "truecaller-advance-bot",
+  "description": "A Telegram bot made with Pyrogram for Truecaller Advance",
+  "repository": "https://github.com/yourusername/truecaller-advance-bot",
+  "keywords": ["telegram", "bot", "pyrogram", "truecaller"],
+  "image": "heroku/python",
+  "addons": ["heroku-postgresql"]
+}
