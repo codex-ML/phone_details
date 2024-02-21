@@ -1,8 +1,24 @@
 {
-  "name": "truecaller-advance-bot",
-  "description": "A Telegram bot made with Pyrogram for Truecaller Advance",
-  "repository": "https://github.com/yourusername/truecaller-advance-bot",
-  "keywords": ["telegram", "bot", "pyrogram", "truecaller"],
-  "image": "heroku/python",
-  "addons": ["heroku-postgresql"]
+  "name": "vehicle_details",
+  "description": "Telegram Bot deployed on Heroku",
+  "repository": "https://github.com/NOOB-EXOTIC21/vcbot",
+  "env": {
+    "BOT_TOKEN": {
+      "description": "Telegram bot token",
+      "required": false
+    }
+  },
+  "scripts": {
+    "start": "python main.py"
+  },
+"buildpacks": [
+  {
+    "url": "heroku/python",
+    "stack": "heroku-20",
+    "config": {
+      "python_version": "3.8.12"
+    }
+  }
+]
+
 }
