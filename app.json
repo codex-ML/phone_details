@@ -1,5 +1,5 @@
 {
-  "name": "vehicle_details",
+  "name": "phone_details",
   "description": "Telegram Bot deployed on Heroku",
   "repository": "https://github.com/NOOB-EXOTIC21/vcbot",
   "env": {
